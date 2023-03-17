@@ -1,0 +1,42 @@
+.nav-outer-container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    min-height: 80px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.nav-inner-container {
+    max-width: 98%;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 35px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
