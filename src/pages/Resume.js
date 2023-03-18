@@ -1,17 +1,15 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
+import resume from '../assets/Resume-RebeccaGirndt.pdf'
 
 export default function Resume() {
   return (
     <div>
-      <h1>Resume Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <h1>Resume</h1>
+      <a href={resume} download>
+      <h2><FontAwesomeIcon icon={faFileArrowDown} size="1x" /> Download Rebecca's Resume</h2>
+      </a>
     </div>
   );
 }
