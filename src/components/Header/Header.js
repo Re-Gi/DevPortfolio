@@ -19,10 +19,10 @@ function Header() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto justify-content-end flex-grow-1">
-                  <Link className='nav-link' to='/'>About</Link>
-                  <Link className='nav-link' to='/projects'>Projects</Link>
-                  <Link className='nav-link' to="/contact">Contact</Link>
-                  <Link className='nav-link' to="/resume">Resume</Link>
+                  <Link className='nav-link' to='/DevPortfolio/'>About</Link>
+                  <Link className='nav-link' to='/DevPortfolio/projects'>Projects</Link>
+                  <Link className='nav-link' to="/DevPortfolio/contact">Contact</Link>
+                  <Link className='nav-link' to="/DevPortfolio/resume">Resume</Link>
                 </Nav>
             </Navbar.Collapse>
           </Container>

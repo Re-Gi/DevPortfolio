@@ -21,10 +21,10 @@ function App() {
             <Header />
             <div className="container app-container">
             <Routes>
-                <Route path="/" element={<About />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/resume" element={<Resume />} />
+                <Route path="/DevPortfolio/" element={<About />} />
+                <Route path="/DevPortfolio/projects" element={<Projects />} />
+                <Route path="/DevPortfolio/contact" element={<Contact />} />
+                <Route path="/DevPortfolio/resume" element={<Resume />} />
             </Routes>
             </div>
             <Footer />
